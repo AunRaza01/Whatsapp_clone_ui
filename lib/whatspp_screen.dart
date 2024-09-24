@@ -131,10 +131,9 @@ class WhatsppClone extends StatelessWidget {
             ListTile(
               leading: CircleAvatar(
                 radius: 35,
-                backgroundImage: NetworkImage(
-                    "https://avatars.githubusercontent.com/u/115925286?v=4"),
+                backgroundImage: AssetImage("assets/profile.JPG"),
               ),
-              title: Text("Abdullah bin Shahid"),
+              title: Text("Aun raza"),
               subtitle: Text("hey there i'm using whatsapp"),
             ),
           ],
